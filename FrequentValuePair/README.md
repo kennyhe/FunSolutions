@@ -1,4 +1,9 @@
+Frequent Value Pair Problem
+===========================
+
 This is a response to an algorithm question posted on mitbbs.com:
+http://www.mitbbs.com/article_t/CS/31215183.html
+
 
 Original problem (Translated into English):
 Given a maxtrix, N rows, M columns. The values in the matrix are either 1 or 0.
@@ -10,3 +15,7 @@ Step 2) Build a Frequency Pattern Tree. Complexity: O(M*N)
 Step 3) Visit the Frequency Pattern Tree and calculate the frequency: Worst case: O(M^2*N); average case: O(M*N); Best case: O(M).
 
 
+Reference: 
+Mining Frequent Patterns without Candidate Generation: A Frequent-Pattern Tree Approach
+Jiawei Han, Jian Pei, Yiwen Yin, Runying Mao
+http://link.springer.com/article/10.1023/B:DAMI.0000005258.31418.83
